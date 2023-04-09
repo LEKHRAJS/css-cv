@@ -1,0 +1,179 @@
+
+
+
+body{
+    margin: 0;
+    text-align: center;
+   
+}
+h1{
+  
+    margin: 50px auto 0 auto;
+    
+    font-family: 'kaushan Script';
+}
+
+p{
+    font-family: 'kaushan Script';
+    font-size: 20px;
+    text-align: center;
+}
+
+h2{
+        font-family: 'Yellowtail', cursive;
+    font-size: 2rem;
+}
+h3{
+    font-family: 'kaushan Script';
+}
+
+.tc{
+    position: relative;
+    padding-top: 100px;
+    background-color: aquamarine;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted ;
+    border-color: grey;
+    border-width: 5px;
+    width: 20%;	
+}
+     
+     
+
+
+
+
+
+.profile{
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    overflow: hidden;
+    
+    
+}
+
+.profile img{
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 400%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;   
+
+}
+
+.profile img:hover{
+    transform: scale(1.3);
+    filter: grayscale(0%);
+
+}
+
+.P2 {
+
+height: 220px;
+width:220px;
+border-radius: 100%;
+overflow: hidden;
+
+}
+.P2 img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 400%;
+    filter: contrast(100%);
+    transition: 0.5s ease;
+    cursor: pointer;   
+
+}
+
+.P2 img:hover{
+    transform: scale(1.3);
+    filter: contrast(400%);
+ 
+}
+
+
+
+
+
+
+
+
+
+
+.middle-container{ 
+   background-color:#ECE8DD;
+
+}
+
+
+.bottom-container{
+    
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 50px 0 20px;
+    
+}
+
+
+.top-cloud{
+
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+ 
+}
+
+  
+
+a{
+    
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.btn {
+    background: #12476b;
+    background-image: -webkit-linear-gradient(top, #12476b, #b82d2b);
+    background-image: -moz-linear-gradient(top, #12476b, #b82d2b);
+    background-image: -ms-linear-gradient(top, #12476b, #b82d2b);
+    background-image: -o-linear-gradient(top, #12476b, #b82d2b);
+    background-image: linear-gradient(to bottom, #12476b, #b82d2b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fcac3c;
+    background-image: -webkit-linear-gradient(top, #fcac3c, #34d9c0);
+    background-image: -moz-linear-gradient(top, #fcac3c, #34d9c0);
+    background-image: -ms-linear-gradient(top, #fcac3c, #34d9c0);
+    background-image: -o-linear-gradient(top, #fcac3c, #34d9c0);
+    background-image: linear-gradient(to bottom, #fcac3c, #34d9c0);
+    text-decoration: none;
+  }
